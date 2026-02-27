@@ -1,0 +1,32 @@
+general.import = [
+	"~/.config/alacritty/catppuccin-macchiato.toml"
+]
+
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding.x = 20 
+padding.y = 20 
+
+decorations = "Buttonless"
+
+opacity = 0.8
+blur = true
+
+option_as_alt = "Both"
+
+[font]
+normal.family = "MesloLGS Nerd Font Mono"
+
+size = 18
+
+[keyboard]
+bindings = [
+  { key = "Right", mods = "ALT", chars = "\u001BF" },
+  { key = "Left", mods = "ALT", chars = "\u001Bb" },
+  { key = "Left", mods = "Command", chars = "\u001bOH"},
+  { key = "Right", mods = "Command", chars = "\u001bOF" },
+  { key = "Back", mods = "Command", chars = "\u0015"},
+]
