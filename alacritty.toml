@@ -1,5 +1,5 @@
 general.import = [
-	"~/.config/alacritty/catppuccin-macchiato.toml"
+	"~/.config/alacritty/catppuccin-frappe.toml"
 ]
 
 
@@ -7,13 +7,13 @@ general.import = [
 TERM = "xterm-256color"
 
 [window]
-padding.x = 20 
-padding.y = 20 
+padding.x = 10 
+padding.y = 10
 
 decorations = "Buttonless"
 
-opacity = 0.8
-blur = true
+# opacity = 0.8
+# blur = true
 
 option_as_alt = "Both"
 
